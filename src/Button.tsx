@@ -12,7 +12,7 @@ export const Button: FC<Props> = ({
     <button
       style={{
         display: 'inline-block',
-        padding: '0 2em',
+        padding: '0 3em',
         height: 100,
         borderRadius: 50,
         borderStyle: 'solid',
