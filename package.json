@@ -36,6 +36,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "screenshot": "storycap -C puppeteer --serverCmd \"start-storybook -p 9001\" http://localhost:9001",
+    "regression": "reg-suit run",
     "prepare": "husky install",
     "lint-staged": "lint-staged"
   },
