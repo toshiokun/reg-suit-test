@@ -13,7 +13,7 @@ export const Button: FC<Props> = ({
       style={{
         display: 'inline-block',
         padding: '0 3em',
-        height: 50,
+        height: 55,
         borderRadius: 50,
         borderStyle: 'solid',
         borderWidth: 1,
