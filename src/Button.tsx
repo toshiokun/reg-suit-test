@@ -20,7 +20,7 @@ export const Button: FC<Props> = ({
         borderColor: primary ? 'red' : '#adadad',
         background: primary ? 'red' : '#fff',
         color: primary ? '#fff' : '#363636',
-        font: 'normal 16px/50px sans-serif',
+        font: 'italic 14px/50px sans-serif',
         textRendering: 'optimizeLegibility',
       }}
     >
