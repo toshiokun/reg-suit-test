@@ -17,10 +17,10 @@ export const Button: FC<Props> = ({
         borderRadius: 50,
         borderStyle: 'solid',
         borderWidth: 1,
-        borderColor: primary ? '#00c4a7' : '#adadad',
-        background: primary ? '#00c4a7' : '#fff',
+        borderColor: primary ? 'orange' : '#adadad',
+        background: primary ? 'orange' : '#fff',
         color: primary ? '#fff' : '#363636',
-        font: 'normal 14px/50px sans-serif',
+        font: 'italic 14px/50px sans-serif',
         textRendering: 'optimizeLegibility',
       }}
     >
