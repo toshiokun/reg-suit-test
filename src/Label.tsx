@@ -13,13 +13,13 @@ export const Label: FC<Props> = ({
       style={{
         display: 'inline-block',
         padding: '0 3em',
-        height: 55,
-        borderStyle: 'solid',
+        height: 100,
+        borderStyle: 'dashed',
         borderWidth: 1,
-        borderColor: primary ? 'red' : '#adadad',
-        background: primary ? 'red' : '#fff',
+        borderColor: primary ? 'orange' : '#adadad',
+        background: primary ? 'orange' : '#fff',
         color: primary ? '#fff' : '#363636',
-        font: 'normal 14px/55px sans-serif',
+        font: 'italic 14px/100px sans-serif',
       }}
     >
       {children}
