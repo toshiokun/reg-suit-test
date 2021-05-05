@@ -1,30 +1,28 @@
-import React, { FC, PropsWithChildren } from 'react'
+import { FC, PropsWithChildren } from 'react'
 
 interface Props {
   primary?: boolean
 }
 
-export const Button: FC<Props> = ({
+export const Label: FC<Props> = ({
   children,
   primary,
 }: PropsWithChildren<Props>) => {
   return (
-    <button
+    <span
       style={{
         display: 'inline-block',
         padding: '0 3em',
         height: 55,
-        borderRadius: 50,
         borderStyle: 'solid',
         borderWidth: 1,
-        borderColor: primary ? '#00c4a7' : '#adadad',
-        background: primary ? '#00c4a7' : '#fff',
+        borderColor: primary ? 'red' : '#adadad',
+        background: primary ? 'red' : '#fff',
         color: primary ? '#fff' : '#363636',
-        font: 'normal 14px/50px sans-serif',
-        textRendering: 'optimizeLegibility',
+        font: 'normal 14px/55px sans-serif',
       }}
     >
       {children}
-    </button>
+    </span>
   )
 }
